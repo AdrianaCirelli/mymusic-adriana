@@ -1,0 +1,6 @@
+com/ciandt/summit/music/ports/out/MusicRepositoryPort.class
+com/ciandt/summit/music/adapters/MusicUseCaseAdapter.class
+com/ciandt/summit/music/ports/in/MusicUseCasePort.class
+com/ciandt/summit/music/exception/InvalidParameterException.class
+com/ciandt/summit/music/ArtistModel.class
+com/ciandt/summit/music/MusicModel.class

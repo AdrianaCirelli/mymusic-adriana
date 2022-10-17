@@ -1,0 +1,15 @@
+com/ciandt/summit/playlist/dto/response/PlaylistResponseDto.class
+com/ciandt/summit/playlist/PlaylistModel.class
+com/ciandt/summit/playlist/MusicModel.class
+com/ciandt/summit/playlist/dto/response/ArtistDtoResponse.class
+com/ciandt/summit/playlist/exceptions/MusicAlreadyAddException.class
+com/ciandt/summit/playlist/dto/response/MusicDtoResponse.class
+com/ciandt/summit/playlist/ports/in/PlaylistUseCasePort.class
+com/ciandt/summit/playlist/exceptions/MusicNotPresentInPlaylist.class
+com/ciandt/summit/playlist/ArtistModel.class
+com/ciandt/summit/playlist/ports/out/ApiMusicPort.class
+com/ciandt/summit/playlist/ports/out/PlaylistRepositoryPort.class
+com/ciandt/summit/playlist/exceptions/PlaylistNotFoundException.class
+com/ciandt/summit/playlist/ports/in/AddingMusicToPlaylistDTO.class
+com/ciandt/summit/playlist/exceptions/MusicNotFoundException.class
+com/ciandt/summit/playlist/adapter/PlaylistUseCaseAdapter.class

@@ -1,0 +1,9 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/spring/repository/adapters/UserRepositoryAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/mapper/UserMapper.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/exception/UserNotFoundException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/spring/repository/adapters/entity/UserEntity.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/spring/configuration/contextbeans/UserUseCasePortConfiguration.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/spring/configuration/database/DbConfig.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/exception/security/InvalidTokenException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/spring/repository/adapters/UserRepository.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-infrastructure/src/main/java/com/ciandt/summit/user/spring/configuration/database/SqlDialect.java

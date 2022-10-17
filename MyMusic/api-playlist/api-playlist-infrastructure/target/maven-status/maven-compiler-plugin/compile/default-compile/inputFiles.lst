@@ -1,0 +1,15 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/rest/consummer/ApiMusicAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/configuration/ports/PlayListUseCaseAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/entity/PlayListEntity.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/rest/consummer/ApiMusicProxy.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/configuration/database/DbConfig.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/repository/PlaylistRepositoryAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/configuration/database/SqlDialect.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/mapper/PlaylistMapper.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/entity/MusicEntity.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/repository/PlaylistRepository.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/entity/ArtistEntity.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/configuration/openapi/OpenApiConfiguration.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/mapper/MusicMapper.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/rest/consummer/MusicDtoResponse.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-infrastructure/src/main/java/com/ciandt/summit/playlist/adapter/mapper/ArtistMapper.java

@@ -1,0 +1,10 @@
+com/ciandt/summit/playlist/rest/adapter/ApiExceptionHandler.class
+com/ciandt/summit/playlist/rest/adapter/PlaylistAdapterRestController.class
+com/ciandt/summit/playlist/token/dto/TokenAuthorizationWrapperDto.class
+com/ciandt/summit/playlist/token/InvalidTokenException.class
+com/ciandt/summit/playlist/ApiPlaylistApp.class
+com/ciandt/summit/playlist/token/TokenProviderAdapter.class
+com/ciandt/summit/playlist/rest/adapter/dto/RequestDtoAddingMusicToPlaylist.class
+com/ciandt/summit/playlist/token/TokenProviderPort.class
+com/ciandt/summit/playlist/token/TokenProviderProxy.class
+com/ciandt/summit/playlist/token/dto/TokenAuthorizationDataDto.class

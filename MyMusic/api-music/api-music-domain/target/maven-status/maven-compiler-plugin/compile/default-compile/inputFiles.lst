@@ -1,0 +1,6 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-domain/src/main/java/com/ciandt/summit/music/MusicModel.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-domain/src/main/java/com/ciandt/summit/music/exception/InvalidParameterException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-domain/src/main/java/com/ciandt/summit/music/ArtistModel.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-domain/src/main/java/com/ciandt/summit/music/ports/out/MusicRepositoryPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-domain/src/main/java/com/ciandt/summit/music/ports/in/MusicUseCasePort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-domain/src/main/java/com/ciandt/summit/music/adapters/MusicUseCaseAdapter.java

@@ -1,0 +1,6 @@
+com/ciandt/summit/music/rest/adapter/MusicAdapterRestController.class
+com/ciandt/summit/music/rest/adapter/dtoResponse/ArtistDtoResponse.class
+com/ciandt/summit/music/rest/adapter/dtoResponse/DataDtoResponse.class
+com/ciandt/summit/music/rest/adapter/dtoResponse/MusicDtoResponse.class
+com/ciandt/summit/music/rest/adapter/ApiExceptionHandler.class
+com/ciandt/summit/music/ApiMusicApp.class

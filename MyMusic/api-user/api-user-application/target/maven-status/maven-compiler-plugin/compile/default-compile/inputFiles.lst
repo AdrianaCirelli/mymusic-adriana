@@ -1,0 +1,4 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-application/src/main/java/com/ciandt/summit/user/ApiUserApp.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-application/src/main/java/com/ciandt/summit/user/rest/adapter/userDtoResponse/UserDtoResponse.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-application/src/main/java/com/ciandt/summit/user/rest/adapter/UserAdapterRestController.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-application/src/main/java/com/ciandt/summit/user/rest/adapter/ApiUserExceptionHandler.java

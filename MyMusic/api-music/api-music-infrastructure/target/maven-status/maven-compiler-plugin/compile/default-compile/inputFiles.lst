@@ -1,0 +1,17 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/repository/adapter/MusicRepositoryAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/util/mapper/MusicMapper.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/security/token/rest/adapter/TokenProviderAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/repository/adapter/MusicRepository.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/configuration/contextbeans/MusicUseCasePortConfiguration.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/util/mapper/ArtistMapper.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/security/token/rest/adapter/dto/TokenAuthorizationDataDto.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/security/token/rest/adapter/TokenProviderProxy.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/repository/adapter/entity/MusicEntity.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/security/token/rest/adapter/dto/TokenAuthorizationWrapperDto.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/configuration/database/SqlDialect.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/configuration/openapi/OpenApiConfiguration.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/repository/adapter/entity/ArtistEntity.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/repository/exception/MusicNotFoundException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/spring/configuration/database/DbConfig.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/security/token/rest/exception/InvalidTokenException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-music/api-music-infrastructure/src/main/java/com/ciandt/summit/music/security/token/rest/port/TokenProviderPort.java

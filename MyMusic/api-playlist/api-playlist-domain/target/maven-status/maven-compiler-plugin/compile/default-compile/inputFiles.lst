@@ -1,0 +1,15 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/dto/response/MusicDtoResponse.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/dto/response/ArtistDtoResponse.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/PlaylistModel.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/MusicModel.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/ports/out/PlaylistRepositoryPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/exceptions/MusicAlreadyAddException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/adapter/PlaylistUseCaseAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/ArtistModel.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/exceptions/PlaylistNotFoundException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/ports/in/AddingMusicToPlaylistDTO.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/exceptions/MusicNotFoundException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/dto/response/PlaylistResponseDto.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/exceptions/MusicNotPresentInPlaylist.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/ports/out/ApiMusicPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-domain/src/main/java/com/ciandt/summit/playlist/ports/in/PlaylistUseCasePort.java

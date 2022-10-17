@@ -1,0 +1,7 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-domain/src/main/java/com/ciandt/summit/user/port/out/ApiPlaylistPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-domain/src/main/java/com/ciandt/summit/user/port/out/UserTokenProviderPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-domain/src/main/java/com/ciandt/summit/user/port/out/ApiMusicPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-domain/src/main/java/com/ciandt/summit/user/UserModel.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-domain/src/main/java/com/ciandt/summit/user/port/in/UserUseCasePort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-domain/src/main/java/com/ciandt/summit/user/port/out/UserRepositoryPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-user/api-user-domain/src/main/java/com/ciandt/summit/user/adapters/UserUseCaseAdapter.java

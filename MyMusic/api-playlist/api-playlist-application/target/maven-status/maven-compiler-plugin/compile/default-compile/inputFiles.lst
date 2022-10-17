@@ -1,0 +1,10 @@
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/rest/adapter/PlaylistAdapterRestController.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/token/TokenProviderProxy.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/rest/adapter/dto/RequestDtoAddingMusicToPlaylist.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/token/InvalidTokenException.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/token/TokenProviderPort.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/ApiPlaylistApp.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/token/dto/TokenAuthorizationWrapperDto.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/token/dto/TokenAuthorizationDataDto.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/token/TokenProviderAdapter.java
+/home/adrianacirelli/Workspace/projects/grupo-04-mymusic/MyMusic/api-playlist/api-playlist-application/src/main/java/com/ciandt/summit/playlist/rest/adapter/ApiExceptionHandler.java

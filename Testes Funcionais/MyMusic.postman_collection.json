@@ -1,0 +1,706 @@
+{
+	"info": {
+		"_postman_id": "5a38bbb8-9250-4130-8673-e329da5f33e8",
+		"name": "MyMusic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Api-Music",
+			"item": [
+				{
+					"name": "Filtro invalido TEST",
+					"item": [
+						{
+							"name": "Get de música filtro inválido",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8080/api/v1/musics?filtro=a",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics"
+									],
+									"query": [
+										{
+											"key": "filtro",
+											"value": "a"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Variações de filtro",
+					"item": [
+						{
+							"name": "Get de música filtro válido - sem resultado",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8080/api/v1/musics?filtro=asadaswdsd",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics"
+									],
+									"query": [
+										{
+											"key": "filtro",
+											"value": "asadaswdsd"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get de música filtro válido -  filtro em branco",
+							"request": {
+								"auth": {
+									"type": "basic"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8080/api/v1/musics?filtro=michael",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics"
+									],
+									"query": [
+										{
+											"key": "filtro",
+											"value": "michael"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get de música filtro válido -  sem filtro",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/v1/musics",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Case Sensitive TEST",
+					"item": [
+						{
+							"name": "Get de música filtro válido - minusculo",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/v1/musics?filtro=culture+club",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics"
+									],
+									"query": [
+										{
+											"key": "filtro",
+											"value": "culture+club"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get de música filtro válido - maisculo",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8080/api/v1/musics?filtro=CULTURE+CLUB",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics"
+									],
+									"query": [
+										{
+											"key": "filtro",
+											"value": "CULTURE+CLUB"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Filtro Valido - Ordenação TEST",
+					"item": [
+						{
+							"name": "Get de música filtro válido -  Buscando com critério de musica e artista com nome semelhante",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/v1/musics?filtro=michael",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics"
+									],
+									"query": [
+										{
+											"key": "filtro",
+											"value": "michael"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Musica por id",
+					"item": [
+						{
+							"name": "Get Singleton Music",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/v1/musics/073cbbdf-8315-44ba-95f6-7770ec9b3bde",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"musics",
+										"073cbbdf-8315-44ba-95f6-7770ec9b3bde"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Api-Playlist",
+			"item": [
+				{
+					"name": "Get de playlist unica",
+					"item": [
+						{
+							"name": "Singleton Resource de Playlist",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8181/api/v1/playlists/93f7da42-d9e5-4e50-a789-b4f406897dd7",
+									"host": [
+										"localhost"
+									],
+									"port": "8181",
+									"path": [
+										"api",
+										"v1",
+										"playlists",
+										"93f7da42-d9e5-4e50-a789-b4f406897dd7"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Playlist não encontrada",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8181/api/v1/playlists/a24dd5fb-fefd-4466-b246-d447b73c7ab0",
+									"host": [
+										"localhost"
+									],
+									"port": "8181",
+									"path": [
+										"api",
+										"v1",
+										"playlists",
+										"a24dd5fb-fefd-4466-b246-d447b73c7ab0"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Adicionar musica na playlist",
+					"item": [
+						{
+							"name": "Adicionar musica na playlist - sucesso",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "token",
+										"value": "{{token}}",
+										"type": "text"
+									},
+									{
+										"key": "username",
+										"value": "{{username}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"idPlaylist\": \"93f7da42-d9e5-4e50-a789-b4f406897dd7\",\n  \"idMusic\": \"dbe78179-bd33-44a0-a342-c7fe279d745b\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8181/api/v1/playlists/addMusic",
+									"host": [
+										"localhost"
+									],
+									"port": "8181",
+									"path": [
+										"api",
+										"v1",
+										"playlists",
+										"addMusic"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Api-Token-Provider",
+			"item": [
+				{
+					"name": "Gera o token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"data\":{\n        \"name\": \"Lukaz\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8282/api/v1/token",
+							"host": [
+								"localhost"
+							],
+							"port": "8282",
+							"path": [
+								"api",
+								"v1",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Valida o token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"data\":{\n        \"name\": \"Cris\",\n        \"token\": \"0/aUyMjwFcqZnPlHJebHfxG2PmmQk6z3HQfBlc5ADRxuWUolcXF2807MhVth2Pat\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8282/api/v1/token/authorizer",
+							"host": [
+								"localhost"
+							],
+							"port": "8282",
+							"path": [
+								"api",
+								"v1",
+								"token",
+								"authorizer"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Api-User",
+			"item": [
+				{
+					"name": "Usuário por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8383/api/v1/users/ba0dcc8b-ebcb-481f-88d8-4d660964f2d7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8383",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"ba0dcc8b-ebcb-481f-88d8-4d660964f2d7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"mateus\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8383/api/v1/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8383",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Playlist por Id (Via User)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8383/api/v1/users/ba0dcc8b-ebcb-481f-88d8-4d660964f2d7/playlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8383",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"ba0dcc8b-ebcb-481f-88d8-4d660964f2d7",
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Adicionar Música na Playlist (Via User) Copy",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"idPlaylist\": \"fadad621-3ff5-4c66-94ba-f57cc16df792\",\n  \"idMusic\": \"36787270-cbe3-445d-bf17-bdad82b28c16\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8383/api/v1/users/ba0dcc8b-ebcb-481f-88d8-4d660964f2d7/playlist/addMusic",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8383",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"ba0dcc8b-ebcb-481f-88d8-4d660964f2d7",
+								"playlist",
+								"addMusic"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remover Música da Playlist (Via User)",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"idPlaylist\": \"fadad621-3ff5-4c66-94ba-f57cc16df792\",\n  \"idMusic\": \"a7ea629f-237e-430c-a211-ecb2c177e266\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8383/api/v1/users/ba0dcc8b-ebcb-481f-88d8-4d660964f2d7/playlist/removeMusic",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8383",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"ba0dcc8b-ebcb-481f-88d8-4d660964f2d7",
+								"playlist",
+								"removeMusic"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
